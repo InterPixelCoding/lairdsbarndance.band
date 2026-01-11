@@ -1,0 +1,25 @@
+# Timeline
+- ## 30/12/2025
+    - [First Meeting: 40 minutes](First_Meeting_30-12-2025.md)
+        - ### Topics Discussed
+            - Chosen Pages
+                - Homepage
+                - About Us (General description at first, then individuals listed separately later)
+                - Packages (Focussing on delivering upfront costs)
+                - Contact Us
+                - Events (Database Updated Via Spreadsheet, managed by Richard)
+                    - Designed now, released once there are a healthy number of gigs
+                - FAQs
+            - Domain Name
+                - lairdsbarndance.band
+            - Text Transfer
+                - Via Word Document
+            - Website Email
+                - contact@lairdsbarndance.band
+                    - Forwarded to personal email addresses
+            - Ceilidh Videography
+            - Fees and Services
+- ## 11/01/2026
+    - Banner Vectorisation and integration into logo design (1 Hour)
+    - [Workflow](../assets/temp/11-01-2025.png)
+    
