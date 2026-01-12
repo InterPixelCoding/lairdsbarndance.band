@@ -19,7 +19,17 @@
                     - Forwarded to personal email addresses
             - Ceilidh Videography
             - Fees and Services
+    - ### Time Spent: 1 hour
 - ## 11/01/2026
-    - Banner Vectorisation and integration into logo design (1 Hour)
+    - Banner Vectorisation and integration into logo design
     - [Workflow](../assets/temp/11-01-2025.png)
+    - ### Time Spent: 1 hour
+- ## 12/01/2026
+    - Started working on website mockup, landing page.
+    - Used Adobe Firefly for generative expand so the temporary image provided can be used more freely.
+    - Experimented with colour palette, concluding with a complimentary navy blue, deep red / brown combination
+    - Exploring methods of separating background and subjects. Vignetting, blurring (taken perhaps too far), drop shadows etc.
+    - Feedback about formalising colour palette (To do)
+    - [Mockup Draft](../assets/temp/Landing%20Page%20First%20Mockup.png)
+    - ### Time Spent: 2 Hours 20 minutes
     
