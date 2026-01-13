@@ -32,4 +32,6 @@
     - Feedback about formalising colour palette (To do)
     - [Mockup Draft](../assets/temp/Landing%20Page%20First%20Mockup.png)
     - ### Time Spent: 2 Hours 20 minutes
-    
+- ## 13/01/2026
+    - Generated [Colour Palettes](../assets/temp/palettes.png) and [Font Combinations](../assets/temp/fonts.png), awaiting feedback
+    - ### Time Spent: 30 minutes
