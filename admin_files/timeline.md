@@ -35,3 +35,14 @@
 - ## 13/01/2026
     - Generated [Colour Palettes](../assets/temp/palettes.png) and [Font Combinations](../assets/temp/fonts.png), awaiting feedback
     - ### Time Spent: 30 minutes
+- ## 02/02/2026
+    - Revised Landing page mockup, added reviews on vignetted sides, enhances proffessionalism and builds immediate trust with the user.
+        - Updated colours in line with decided [Colour Palette](../assets/temp/Palette.png)
+    - Start About page, experimenting with blue leather stitched title element, and skeuomorphic postcard slideshow
+    - ### Time Spent: 1 hour
+- ## 03/02/2026
+    - Experimented with logo integration into navigation bar / title, so the user is reminded of the name of the band. 
+        - [Navigation Option](../assets/temp/navigation_option.jpeg)
+        - [Title Option](../assets/temp/title_option.jpeg)
+    - Continued work on About, adding images and stream of consciousness lairds description.
+    - ### Time Spent: 50 minutes
