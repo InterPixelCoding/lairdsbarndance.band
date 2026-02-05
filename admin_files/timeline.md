@@ -46,3 +46,11 @@
         - [Title Option](../assets/temp/title_option.jpeg)
     - Continued work on About, adding images and stream of consciousness lairds description.
     - ### Time Spent: 50 minutes
+- ## 04/02/2026
+    - Created Skeuomorphic Postcard elements with captions, experimenting with paragraph breaks and layout
+    - ### Time Spent: 30 minutes
+- ## 05/02/2026
+    - Lots of text and photos transferred, formatted, added etc.
+    - Created [Database (View Only)](https://docs.google.com/spreadsheets/d/1pSWHmoRA7jzdl81XBYCijammbIVrjFhTFQ6Q3Ema29s/edit?usp=sharing)
+    - Designed [FAQs Mockup](../assets/temp/faqs_first_draft.jpeg)
+    - ### Time Spent: 2 hours
