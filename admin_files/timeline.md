@@ -54,3 +54,11 @@
     - Created [Database (View Only)](https://docs.google.com/spreadsheets/d/1pSWHmoRA7jzdl81XBYCijammbIVrjFhTFQ6Q3Ema29s/edit?usp=sharing)
     - Designed [FAQs Mockup](../assets/temp/faqs_first_draft.jpeg)
     - ### Time Spent: 2 hours
+- ## 08/02/2026
+    - Videography for Promo Video
+    - Uploaded footage and audio, converted proxies
+    - ### Time Spent: 4 hours
+- ## 01/03/2026
+    - Formatted Database
+    - Edited short audio sound test: [audio_test.mp3](../assets/temp/audio_test.mp3)
+    - ### Time Spent: 1 hour
