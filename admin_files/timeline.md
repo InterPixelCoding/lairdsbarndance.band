@@ -66,3 +66,7 @@
     - Registered lairdsbarndance.band domain and website email address
     - More track analysis, begun creating new mix incorporating Richard's suggestions
     - ### Time Spent: 1 hour
+- ## 09/03/2026
+    - Designed first draft of [History Page](../assets/temp/history_first_draft.png) and [Meet The Band](../assets/temp/meet_the_band_first_draft.png)
+    - Designed Dropdown menu functionality ([Screenshot example](../assets/temp/Dropdown.png))
+    - ### Time Spent: 2 hours
