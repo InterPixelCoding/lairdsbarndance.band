@@ -70,3 +70,20 @@
     - Designed first draft of [History Page](../assets/temp/history_first_draft.png) and [Meet The Band](../assets/temp/meet_the_band_first_draft.png)
     - Designed Dropdown menu functionality ([Screenshot example](../assets/temp/Dropdown.png))
     - ### Time Spent: 2 hours
+- ## 10/03/2026
+    - General admin regarding the layout and content of pages yet to be designed (Packages, Events, Gallery), coming up with these page outlines:
+        - Gallery Page
+            - Standard (jumbled, variable size) tile matrix, containing all photos
+        - Events
+            - Details of events, and an image carousel included for events with photographs
+                - All managed on spreadsheet and linked to named google drive sub folders
+        - Packages
+            - Very minimal, text only.
+    - Started designing Events Page
+    - ### Time Spent: 1 hour
+- ## 11/03/2026
+    - Updated Meet The Band sub heading font to Cantora One (Free Google Font)
+        - Replaced the rounded sans serif with a hybrid serif-handwritten font, slightly more condensed, blends in with the website aesthetic
+        - [Example](../assets/temp/meet_the_band_draft_2.png)
+    - Added Contact Information to spreadsheet
+    - ### Time Spent: 30 minutes
