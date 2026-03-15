@@ -87,3 +87,21 @@
         - [Example](../assets/temp/meet_the_band_draft_2.png)
     - Added Contact Information to spreadsheet
     - ### Time Spent: 30 minutes
+- ## 15/03/2026
+    - Added Packages Information to Database
+    - Created detailed first Packages mockup, with a skeuomorphic blue felt noticeboard
+        - [Packages First Draft](../assets/temp/packages_first_draft.png)
+        - After discussing this mockup with Richard, we have decided to shift some content around.
+            - Packages Page
+                - Ultra-minimal, just displaying packages, avoiding skeuomorphic elements
+            - FAQs
+                - Move Ceilidh Formats (from Packages) to FAQs or Homepage
+                - Move Food service (from Packages)
+                - Use Blue felt noticeboard on FAQs, rather than for displaying Packages
+    - Created new [Promo Mix](../assets/temp/mix_2.mp3)
+        - Introduction (STE-014)
+        - 4 piece (STE-008)
+        - 2 piece (STE-012)
+        - 3 piece (STE-006)
+        - Outro (STE-008)
+    - ### Time Spent: 4 hours
