@@ -105,3 +105,15 @@
         - 3 piece (STE-006)
         - Outro (STE-008)
     - ### Time Spent: 4 hours
+- ## 21/03/2026
+    - Redesigned [FAQs mockup](../assets/temp/faqs_second_draft_colour_variation.png)
+    - Started editing promo with [new audio](../assets/temp/Lairds%20Website%20Medley.mp3)
+    - ### Time Spent: 1 hour
+- ## 22/03/2026
+    - Provided 3 FAQs mockup examples, with varying degrees of visual complexity. In the process, I cleaned up the flexbox logic in figma, as resizing the noticeboard manually started to become too time consuming. 
+        - Cards only show questions, then answers on hover / click
+        - Cards with truncated text (max 5 lines)
+        - Cards showing all content, regardless of content length.
+    - Refigured Packages barebones mockup
+    - Designed first draft of the [Contact Page](../assets/temp/contact_first_draft.png)
+    - ### Time Spent: 3 hours
