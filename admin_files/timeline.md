@@ -20,10 +20,13 @@
             - Ceilidh Videography
             - Fees and Services
     - ### Time Spent: 1 hour
+
 - ## 11/01/2026
     - Banner Vectorisation and integration into logo design
     - [Workflow](../assets/temp/11-01-2025.png)
+    - <img style="max-width: 40em" src="../assets/temp/11-01-2025.png"/>
     - ### Time Spent: 1 hour
+
 - ## 12/01/2026
     - Started working on website mockup, landing page.
     - Used Adobe Firefly for generative expand so the temporary image provided can be used more freely.
@@ -31,45 +34,65 @@
     - Exploring methods of separating background and subjects. Vignetting, blurring (taken perhaps too far), drop shadows etc.
     - Feedback about formalising colour palette (To do)
     - [Mockup Draft](../assets/temp/Landing%20Page%20First%20Mockup.png)
+    - <img style="max-width: 40em" src="../assets/temp/Landing%20Page%20First%20Mockup.png"/>
     - ### Time Spent: 2 Hours 20 minutes
+
 - ## 13/01/2026
     - Generated [Colour Palettes](../assets/temp/palettes.png) and [Font Combinations](../assets/temp/fonts.png), awaiting feedback
+    - <img style="max-width: 40em" src="../assets/temp/palettes.png"/>
+    - <img style="max-width: 40em" src="../assets/temp/fonts.png"/>
     - ### Time Spent: 30 minutes
+
 - ## 02/02/2026
     - Revised Landing page mockup, added reviews on vignetted sides, enhances proffessionalism and builds immediate trust with the user.
         - Updated colours in line with decided [Colour Palette](../assets/temp/Palette.png)
+        - <img style="max-width: 40em" src="../assets/temp/Palette.png"/>
     - Start About page, experimenting with blue leather stitched title element, and skeuomorphic postcard slideshow
     - ### Time Spent: 1 hour
+
 - ## 03/02/2026
     - Experimented with logo integration into navigation bar / title, so the user is reminded of the name of the band. 
         - [Navigation Option](../assets/temp/navigation_option.jpeg)
+        - <img style="max-width: 40em" src="../assets/temp/navigation_option.jpeg"/>
         - [Title Option](../assets/temp/title_option.jpeg)
+        - <img style="max-width: 40em" src="../assets/temp/title_option.jpeg"/>
     - Continued work on About, adding images and stream of consciousness lairds description.
     - ### Time Spent: 50 minutes
+
 - ## 04/02/2026
     - Created Skeuomorphic Postcard elements with captions, experimenting with paragraph breaks and layout
     - ### Time Spent: 30 minutes
+
 - ## 05/02/2026
     - Lots of text and photos transferred, formatted, added etc.
     - Created [Database (View Only)](https://docs.google.com/spreadsheets/d/1pSWHmoRA7jzdl81XBYCijammbIVrjFhTFQ6Q3Ema29s/edit?usp=sharing)
     - Designed [FAQs Mockup](../assets/temp/faqs_first_draft.jpeg)
+    - <img style="max-width: 40em" src="../assets/temp/faqs_first_draft.jpeg"/>
     - ### Time Spent: 2 hours
+
 - ## 08/02/2026
     - Videography for Promo Video
     - Uploaded footage and audio, converted proxies
     - ### Time Spent: 4 hours
+
 - ## 01/03/2026
     - Formatted Database
     - Edited short audio sound test: [audio_test.mp3](../assets/temp/audio_test.mp3)
     - ### Time Spent: 1 hour
+
 - ## 08/03/2026
     - Registered lairdsbarndance.band domain and website email address
     - More track analysis, begun creating new mix incorporating Richard's suggestions
     - ### Time Spent: 1 hour
+
 - ## 09/03/2026
     - Designed first draft of [History Page](../assets/temp/history_first_draft.png) and [Meet The Band](../assets/temp/meet_the_band_first_draft.png)
+    - <img style="max-width: 40em" src="../assets/temp/history_first_draft.png"/>
+    - <img style="max-width: 40em" src="../assets/temp/meet_the_band_first_draft.png"/>
     - Designed Dropdown menu functionality ([Screenshot example](../assets/temp/Dropdown.png))
+    - <img style="max-width: 40em" src="../assets/temp/Dropdown.png"/>
     - ### Time Spent: 2 hours
+
 - ## 10/03/2026
     - General admin regarding the layout and content of pages yet to be designed (Packages, Events, Gallery), coming up with these page outlines:
         - Gallery Page
@@ -81,39 +104,54 @@
             - Very minimal, text only.
     - Started designing Events Page
     - ### Time Spent: 1 hour
+
 - ## 11/03/2026
     - Updated Meet The Band sub heading font to Cantora One (Free Google Font)
         - Replaced the rounded sans serif with a hybrid serif-handwritten font, slightly more condensed, blends in with the website aesthetic
         - [Example](../assets/temp/meet_the_band_draft_2.png)
+        - <img style="max-width: 40em" src="../assets/temp/meet_the_band_draft_2.png"/>
     - Added Contact Information to spreadsheet
     - ### Time Spent: 30 minutes
+
 - ## 15/03/2026
     - Added Packages Information to Database
     - Created detailed first Packages mockup, with a skeuomorphic blue felt noticeboard
         - [Packages First Draft](../assets/temp/packages_first_draft.png)
+        - <img style="max-width: 40em" src="../assets/temp/packages_first_draft.png"/>
         - After discussing this mockup with Richard, we have decided to shift some content around.
-            - Packages Page
-                - Ultra-minimal, just displaying packages, avoiding skeuomorphic elements
-            - FAQs
-                - Move Ceilidh Formats (from Packages) to FAQs or Homepage
-                - Move Food service (from Packages)
-                - Use Blue felt noticeboard on FAQs, rather than for displaying Packages
     - Created new [Promo Mix](../assets/temp/mix_2.mp3)
-        - Introduction (STE-014)
-        - 4 piece (STE-008)
-        - 2 piece (STE-012)
-        - 3 piece (STE-006)
-        - Outro (STE-008)
     - ### Time Spent: 4 hours
+
 - ## 21/03/2026
     - Redesigned [FAQs mockup](../assets/temp/faqs_second_draft_colour_variation.png)
+    - <img style="max-width: 40em" src="../assets/temp/faqs_second_draft_colour_variation.png"/>
     - Started editing promo with [new audio](../assets/temp/Lairds%20Website%20Medley.mp3)
     - ### Time Spent: 1 hour
+
 - ## 22/03/2026
-    - Provided 3 FAQs mockup examples, with varying degrees of visual complexity. In the process, I cleaned up the flexbox logic in figma, as resizing the noticeboard manually started to become too time consuming. 
-        - Cards only show questions, then answers on hover / click
-        - Cards with truncated text (max 5 lines)
-        - Cards showing all content, regardless of content length.
-    - Refigured Packages barebones mockup
+    - Provided 3 FAQs mockup examples...
     - Designed first draft of the [Contact Page](../assets/temp/contact_first_draft.png)
+    - <img style="max-width: 40em" src="../assets/temp/contact_first_draft.png"/>
     - ### Time Spent: 3 hours
+
+- ## 02/04/2026
+    - Designed updated [Contact Page](../assets/temp/contact_draft_2.png)
+    - <img style="max-width: 40em" src="../assets/temp/contact_draft_2.png"/>
+    - ### Time Spent: 1 hour 30 minutes
+
+- ## 03/04/2026
+    - Completed Blue Leather Label...
+    - <img style="max-width: 15em" src="../assets/temp/blue_leather/blue_leather_mockup.gif"/>
+    - <img style="max-width: 30em" src="../assets/temp/blue_leather/final.png"/>
+    - Updated text on [Contact Page](../assets//temp/contact_draft_3.png)
+    - <img style="max-width: 40em" src="../assets//temp/contact_draft_3.png"/>
+    - Manually cut out all [package photos](../assets/temp/packages_cut_outs.png)
+    - <img style="max-width: 40em" src="../assets/temp/packages_cut_outs.png"/>
+    - ### Time Spent: 3 hours 30 minutes
+
+- ## 04/04/2026
+    - Completed [Packages Mockup](../assets/temp/packages_redesign_draft_1.png) <br><br>
+     <img style="max-width: 40em" src="../assets/temp/packages_redesign_draft_1.png"/>
+    - [User clicks:](../assets/temp/packages_redesign_draft_1_user_interaction.png) <br><br>
+     <img style="max-width: 40em" src="../assets/temp/packages_redesign_draft_1_user_interaction.png"/>
+    - ### Time Spent: 2 hours 15 minutes
