@@ -166,3 +166,12 @@
         Custom icons for each package type?
         ``` 
     - ### Time Spent: 2 hours 30 minutes
+- ## 17/04/2026
+    - Designed [Events Page Skeuomorphic Mockup](../assets/temp/events_draft_2_temp.jpg)
+
+    - <img style="max-width: 40em" src="../assets/temp/events_draft_2_temp.jpg"/>
+
+    - ```
+        To ensure the page conveys quite how busy and in-demand the band is, the design will aim to fit as many events on screen as possible at any given time (i.e. reducing each entry to roughly two lines in its default state). The top (most recent) event will appear expanded by default, with media arranged around the central card to make fuller use of the available space — for instance, images and videos presented as postcards, and audio through a minimal, skeuomorphic player.
+
+        As the user scrolls, this first event will contract back into the list, and crucially adopt a slight rotation, so that the timeline begins to read as part of a turning wheel. I can expand on the wheel idea as a more distinctly skeuomorphic element in its own right, but I think it make be best to keep the list clean and easily readable, with minimal visual overlay.
