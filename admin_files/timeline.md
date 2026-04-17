@@ -155,3 +155,14 @@
     - [User clicks:](../assets/temp/packages_redesign_draft_1_user_interaction.png) <br><br>
      <img style="max-width: 40em" src="../assets/temp/packages_redesign_draft_1_user_interaction.png"/>
     - ### Time Spent: 2 hours 15 minutes
+
+- ## 12/04/2026
+    - Added README.txt to Gallery Drive Folder, detailing the folder naming convention etc.
+    - Designed [Events First Draft](../assets/temp/events_first_draft.png) <br><br>
+    <img style="max-width: 40em" src="../assets/temp/events_first_draft.png"/>
+        ```
+        Full name or first name for musicians?
+        Mockup shows different types of event entries (minimal / all content available)
+        Custom icons for each package type?
+        ``` 
+    - ### Time Spent: 2 hours 30 minutes
