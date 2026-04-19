@@ -216,6 +216,12 @@
     
     - Added Reviews Table to Homepage spreadsheet on Database
 
+    - ### After Feedback
+        - Reverted call to action to original on Homepage
+        - Removed Red Contact Button so all navigation elements appear equal
+
+    - <img style="max-width: 40em" src="../assets/temp/landing_page_redesign_draft_2.png"/>
+
     - ### Time Spent: 3 hours
 
 
