@@ -172,6 +172,7 @@
         Custom icons for each package type?
         ``` 
     - ### Time Spent: 2 hours 30 minutes
+
 - ## 17/04/2026
     - Designed [Events Page Skeuomorphic Mockup](../assets/temp/events_draft_2_temp.jpg)
 
@@ -184,4 +185,38 @@
     
     - ### Time Spent: 2 hours
 
+- ## 18/04/2026
+    - Begun redesigning the home page. 
+    - Created [Logo font variations](../assets/temp/Logo_font_variations.png), stuck with the original
+
+    - <img style="max-width: 40em" src="../assets/temp/Logo_font_variations.png"/>
+    - Explained to Richard about the use of a subdomain (irish.lairdsbarndance.band) as an option to separate the band identities with no extra cost.
+    - ### Time Spent: 1 hour
+
+- ## 19/04/2026
+    - Designed updated [Packages Mockup](../assets/temp/packages_draft_3.png) and updated interaction mockups accordingly.
+
+    - <img style="max-width: 40em" src="../assets/temp/packages_draft_3.png"/>
+
+        - Changed all package titles to "[package] and caller"
+        - Changed the colour of the leather for fiddler and caller to match the lighting and help improve overall colour harmony.
+        - Colour corrected (strange filter on original), cut out Bluegrass photo and tightened gaps between band members to ensure consistency with other packages.
+
+    - Created [example of interaction](../assets/temp/faqs_interaction.png) with FAQs page, with slight change. When the post-it unfolds, the noticeboard doesn't resize (seems obvious now...)
+
+    - <img style="max-width: 40em" src="../assets/temp/faqs_interaction.png"/>
+
+    - Designed incomplete [Landing Page Redesign](../assets/temp/landing_page_redesign_draft_1.png)
+
+    - <img style="max-width: 40em" src="../assets/temp/landing_page_redesign_draft_1.png"/>
+
+        - Updated Logo, including "Barn Dance Band", scaled down to be more in proportion with the rest of the text on the page.
+        - Reviews shifted up to make use of space around logo + improves text contrast.
+        - White box replaced with three page cards, with blurred translucent background to help fuse both sections.
     
+    - Added Reviews Table to Homepage spreadsheet on Database
+
+    - ### Time Spent: 3 hours
+
+
+
