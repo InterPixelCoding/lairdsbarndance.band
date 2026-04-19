@@ -156,6 +156,12 @@
      <img style="max-width: 40em" src="../assets/temp/packages_redesign_draft_1_user_interaction.png"/>
     - ### Time Spent: 2 hours 15 minutes
 
+- ## 06/04/2026
+    - Added Events Table to Database, Updating Google Drive Folder naming convention to just the date of each event. I then verefied the technical feasabiltiy of this time-efficient solution using the Google Drive and Google Photos API documentation, determining that a node server backend would greatly improve the data fetching and managment of the website.
+    - Converted attached screenshot of review from newsletter to text and updated Richard about inserting reviews with multiple paragraphs (using `<br>` in plaintext)
+    - Added Google Drive Folder link to title of Events Page for easy access.
+    - ### Time Spent: 45 minutes
+
 - ## 12/04/2026
     - Added README.txt to Gallery Drive Folder, detailing the folder naming convention etc.
     - Designed [Events First Draft](../assets/temp/events_first_draft.png) <br><br>
@@ -175,3 +181,7 @@
         To ensure the page conveys quite how busy and in-demand the band is, the design will aim to fit as many events on screen as possible at any given time (i.e. reducing each entry to roughly two lines in its default state). The top (most recent) event will appear expanded by default, with media arranged around the central card to make fuller use of the available space — for instance, images and videos presented as postcards, and audio through a minimal, skeuomorphic player.
 
         As the user scrolls, this first event will contract back into the list, and crucially adopt a slight rotation, so that the timeline begins to read as part of a turning wheel. I can expand on the wheel idea as a more distinctly skeuomorphic element in its own right, but I think it make be best to keep the list clean and easily readable, with minimal visual overlay.
+    
+    - ### Time Spent: 2 hours
+
+    
