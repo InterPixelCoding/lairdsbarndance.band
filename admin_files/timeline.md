@@ -224,5 +224,12 @@
 
     - ### Time Spent: 3 hours
 
+- ## 20/04/2026
+    - Implemented final changes and created [Mockups showcase](https://docs.google.com/presentation/d/1-tm2mFM2LmII1lwuN4BDSVMF9b_fLrK8glRqFbXG51w/edit?usp=sharing)
+
+    - <img style="max-width: 40em" src="../assets/temp/mockups_overview.png"/>
+
+    - ### Time Spent: 1 hour 30 minutes
+
 
 
