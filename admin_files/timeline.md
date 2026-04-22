@@ -231,5 +231,14 @@
 
     - ### Time Spent: 1 hour 30 minutes
 
+- ## 22/04/2026
+    - Read feedback from Richard about Mockups showcase and updated him on what will be implemented to finalise the Mockups, ready for a review with the band.
+
+        - <img style="max-width: 40em" src="../assets/temp/packages_draft_4.png"/>
+
+    - Updated Packages Page with correct photos. Suggested a professional reshoot of all packages.
+
+    - ### Time Spent: 1 hour
+
 
 
