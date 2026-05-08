@@ -291,3 +291,39 @@
         - Added barn dance vectors as described in first message
 
     - ### Time Spent: 2 hours
+
+- ## 06/05/2026
+    - Continued updating History Page
+    - <img style="max-width: 40em" src="../assets/temp/history_draft_3.png"/>
+    
+    ```
+    As well as increasing the body text by 1 pt (you were right to point that out), I've simplified the alignment, displaying the content as strict columns rather than the previous, freer arrangement, that in hindsight appeared unharmonious and ineffective.
+    ```
+
+    - Created new header design, replacing the blue leather tag.
+    - <img style="max-width: 40em" src="../assets/temp/header_redesign.png"/>
+    ```
+    the new header provides much needed contrast as well as incorporating the red accent colour an an otherwise entirely blue-themed page.
+    ```
+    - ### Time Spent: 1 hour 15 minutes
+
+- ## 07/05/2026
+    - Begun sketching new instruments in a folky, minimalist style.
+    - <img style="max-height: 20em" src="../assets/temp/sketch_1.png"/>
+    ```
+    Tomorrow I'll work on some slightly more minimalist variants. At the moment, the line fidelity isn't even, so I need to find a look that doesn't distract the viewer and simply looks convincing and fitting). Once we're happy with the guitar, I'll attempt to produce similar line drawings of the other instruments.
+    ```
+    - Richard had the revelation of mimicking woodcuts, which aligns much more closely with the website's aesthetic, and intergrates itself into the background logic (as if woodcuts are stamped on sporadically).
+
+    - ### Time Spent: 45 minutes
+
+- ## 08/05/2026
+    - Drew woodcut, using Praetorius' Syntagma Musicum as inspiration. Used Figma's texture filter to non-destructively add the appropriate wobbliness
+    - <img style="max-height: 20em" src="../assets/temp/instruments/guitar.png"/>
+    - Sent through mockups with it incorporated, line-drawing and inverted filled-in versions.
+
+    - Edited and colour graded promo video footage. 
+        - Synced available footage to provided “Lairds Medley” audio where possible. Limited usable footage for intro/outro sections, requiring alternative clips. Majority of 4-piece footage recorded during interval pieces, making synchronisation with lively medley sections difficult. Suggested inclusion of a short interval-performance clip due to stronger footage quality and unobtrusive camera positioning. 
+        - Recommended reducing promo duration to ~2 mins to minimise unsynchronised material, with possibility of filming a more polished, fully synced promo at a later date.
+
+    - ### Time Spent: 2 hours 15 minutes
