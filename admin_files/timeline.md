@@ -327,3 +327,13 @@
         - Recommended reducing promo duration to ~2 mins to minimise unsynchronised material, with possibility of filming a more polished, fully synced promo at a later date.
 
     - ### Time Spent: 2 hours 15 minutes
+
+- ## 10/05/2026
+    - Designed new navigation menu, incorporating the blue leather motif
+    - Continued implementing site-wide changes, completing the Homepage, FAQs and Events
+        - PT Sans replaces Lusitania
+        - Red and White Banner replaces Blue Leather Tags
+        - (placeholder) instrument background applied to all pages
+        - Buttons added to pages to guide the user through the process
+    
+    - ### Time Spent: 3 hours
