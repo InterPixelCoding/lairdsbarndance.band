@@ -363,3 +363,43 @@
         ```
 
     - ### Time Spent: 3 hours 30 minutes
+
+- ## 12/05/2026
+    - Moved Meet the Band second section to Homepage, added buttons to appropriate cards
+    - Improved FAQs design variants
+    - Created Figma Prototype with flow. Functioning navigation menu, buttons and draggable design variants.
+    - Finishing touches to all pages.
+    - ### Time Spent: 1 hour
+
+- ## 15/05/2026
+    - Added Welcome Screen to Mockups Showcase
+    - Fixed issues with user flow, added prototype functionality etc.
+    - <img style="max-height: 20em" src="../assets/temp/welcome_screen.png"/>
+    - ### Time Spent: 30 minutes
+
+- ## 16/05/2026
+    - Minor text and user flow updates
+    - Query about caption style
+    - ### Time Spent: 20 minutes
+
+- ## 17/05/2026
+    - Created mailbox: laird@lairdsbarndance.band
+    - Updated Jonny's photo in Meet The Band
+    - ### Time Spent: 25 minutes
+
+- ## 26/05/2026
+    - Created Irish Lairds Homepage
+        - .heic to .png conversion to ensure quality.
+        - Manual vector cut-out, then refinement with photoshop for hair etc.
+        - Perspective correction, further compensation to Keith who appeared slightly stretched due to the harsh perspective warp
+        - Creation of cleanplate (background)
+        - Compositing, adjusting brightness of vignette
+        - Rearranging quotes to accomodate for Tony's height.
+    - <img style="max-height: 20em" src="../assets/temp/irish_before.jpeg"/>
+    - <img style="max-height: 20em" src="../assets/temp/irish_lairds.png"/> 
+    - ### Time Spent: 1 hour 20 minutes
+
+- ## 27/05/2026
+    - Lots of discussion surrounding reconfiguration of pages and some additions to improve user experience. After lots of back and forth, and my justification of the current designs, we had agreed to stick with the current designs but bringing forth a few additions.
+    - Third photo added to fullscreen homepage carousel
+    
