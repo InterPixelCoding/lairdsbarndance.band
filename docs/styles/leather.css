@@ -1,71 +1,156 @@
 .leather {
-    --border-padding: 1rem;
+    --border-padding: .65rem;
     --stitch-width: 5px;
+    --texture-scale: .9;
+    --brightness: 1;
     position: relative;
     background: var(--blue);
+    box-shadow: 0 .25rem .5rem 0.125rem rgba(0,0,0,0.5);
 }
+
+.leather > *:not(.leather-background, .leather-borders) {z-index: 1;}
 
 .leather-background, .leather-borders {
     position: absolute;
     inset: 0;
 }
 
+.leather-background {
+    overflow: hidden;
+}
+
+.leather-background::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: black;
+    opacity: calc(1 - var(--brightness));
+}
+
 .leather-borders {
     position: absolute;
 }
 
-.leather-borders > * {
-    background-image: url(../assets/sewing.png);
+.leather-borders > * > * {
+    background-image: url(../assets/sewing_optimised_x.png);
     background-repeat: repeat-x;
-    background-size: cover;
-    background-position: center;
+    background-size: 1000px auto;
+    background-position: 0% 0%;
     position: absolute;
 }
 
-.leather-borders > .top {
+.leather-borders > * > .normal {opacity: 0.2}
+.leather-borders > * > .overlay {mix-blend-mode: overlay;}
+
+.leather-borders > .top > * {
     top: calc(var(--border-padding) - var(--stitch-width));
     left: var(--border-padding);
     height: var(--stitch-width);
     width: calc(100% - 2 * var(--border-padding));
 }
   
-.leather-borders > .right {
+.leather-borders > .right > * {
     top: var(--border-padding);
     right: calc(var(--border-padding) - var(--stitch-width));
     width: var(--stitch-width);
     height: calc(100% - 2 * var(--border-padding));
+    background-size: auto 1000px;
 
-    background-image: url(../assets/sewing_y.png);
+    background-image: url(../assets/sewing_optimised_y.png);
 }
   
-.leather-borders > .bottom {
+.leather-borders > .bottom > * {
     bottom: calc(var(--border-padding) - var(--stitch-width));
     left: var(--border-padding);
     height: var(--stitch-width);
     width: calc(100% - 2 * var(--border-padding));
 }
   
-.leather-borders > .left {
+.leather-borders > .left > * {
     top: var(--border-padding);
     left: calc(var(--border-padding) - var(--stitch-width));
     width: var(--stitch-width);
     height: calc(100% - 2 * var(--border-padding));
-
-    background-image: url(../assets/sewing_y.png);
+    background-size: auto 1000px;
+    background-image: url(../assets/sewing_optimised_y.png);
 }
 
 .leather:not(.rough-border) > .leather-background {
     background: var(--blue);
-    box-shadow: inset 0 0 3vw -1vw rgba(0,0,0,0.75),
-                inset 0 -5vw 20vw -5vw rgba(0,0,0,0.5);
-    inset: calc(var(--border-padding) - var(--stitch-width) / 2)
+    --light-glow-col: #3f62b4;
+    box-shadow: inset 0 0 1.5rem -0.5rem rgba(0,0,0,0.5),
+                inset 0 -4rem 10rem -5rem rgba(0,0,0,0.5),
+                0 0 .125rem 0.125rem var(--light-glow-col);
+    inset: calc(var(--border-padding) - var(--stitch-width) / 2);
 }
 
 .leather-background > * {
     position: absolute;
     inset: 0;
-    background-size: 250vw;
+    background-size: calc(2000px * var(--texture-scale));
 }
 
-.leather-background > .displacement {background-image: url(../assets/leather_displacement.png);}
-.leather-background > .dimples {background-image: url(../assets/leather_dimples.png);}
+.leather-background > .displacement {
+    background-image: url(../assets/leather_displacement.png);
+    mix-blend-mode: overlay;
+}
+
+.leather-background > .dimples, .sheen {
+    background-image: url(../assets/leather_dimples.png);
+    background-size: calc(400px * var(--texture-scale));
+    background-repeat: repeat;
+    mix-blend-mode: multiply;
+}
+
+.leather-background > .glow {
+    top: -40%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 110%;
+    height: 120%;
+    border-radius: 100%;
+    background: #D9D9D9;
+    filter: blur(3rem);
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+
+.leather-background > .sheen {
+    background-image: url(../assets/leather_sheen.png);
+    background-size: calc(1000px * var(--texture-scale));
+    mix-blend-mode: hard-light;
+    mask: url(#soft_mask);
+    -webkit-mask: url(#soft_mask);
+    opacity: 0.3;
+}
+
+.leather.rough-border {
+    filter: drop-shadow(0 .25rem .25rem rgba(0,0,0,0.25));
+}
+
+.leather.rough-border::after {
+    --border-height: 1rem;
+    content: "";
+    position: absolute;
+    inset: auto 0 calc(3px + -1*var(--border-height)) 0;
+    height: var(--border-height);
+    background: linear-gradient(var(--light-blue) 10%, black 200%);
+    mask: url(../assets/line.svg);
+    mask-repeat: repeat-x;
+    mask-position: top center;
+}
+
+.leather.rough-border::before {
+    --stitch-height: 5px;
+    position: absolute;
+    content: "";
+    inset: auto -1rem calc(2px - var(--stitch-height)) -1rem;
+    height: var(--stitch-height);
+    background: url(../assets/sewing_optimised_x.png);
+    background-size: 1000px;
+    background-repeat: repeat-x;
+    background-position: center;
+    opacity: 0.7;
+    z-index: 100;
+}
+

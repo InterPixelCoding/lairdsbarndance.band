@@ -2,6 +2,63 @@ const κ = "AIzaSyAM07AIfBXXRU0Y8MbpzySSVtCAG3xjHr0";
 const spreadsheet_id = '1pSWHmoRA7jzdl81XBYCijammbIVrjFhTFQ6Q3Ema29s'; 
 const PAGE = "Home";
 
+const svg_defs = `
+<svg style="position:absolute; width:0; height:0; overflow:hidden"
+  aria-hidden="true"
+  focusable="false"">
+    <defs>
+
+        <!-- Very subtle blur to remove harsh transitions -->
+        <filter
+            id="blur"
+            x="-50%"
+            y="-50%"
+            width="200%"
+            height="200%"
+        >
+            <feGaussianBlur stdDeviation="0.05"/>
+        </filter>
+
+        <!-- Customisable falloff curve -->
+        <radialGradient id="soft_gradient">
+
+            <stop offset="0%" stop-color="white" />
+            <stop offset="60%" stop-color="white" />
+            <stop offset="80%" stop-color="#bbb" />
+            <stop offset="100%" stop-color="black" />
+
+        </radialGradient>
+
+        <!-- Mask that uses both gradient + blur -->
+        <mask
+            id="soft_mask"
+            maskUnits="objectBoundingBox"
+            maskContentUnits="objectBoundingBox"
+        >
+            <rect
+                x="0"
+                y="0"
+                width="1"
+                height="1"
+                fill="black"
+            />
+
+            <circle
+                cx="0.5"
+                cy="0"
+                r="1"
+                fill="url(#soft_gradient)"
+                filter="url(#blur)"
+            />
+
+        </mask>
+
+    </defs>
+</svg>
+`
+
+document.body.insertAdjacentHTML("afterbegin", svg_defs);
+
 async function fetch_data(named_range) {
     const res = await fetch(
         `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheet_id}` +
@@ -152,13 +209,13 @@ function populate_dyn_containers(data) {
     const containers = $(".dyn-container");
     containers.forEach(container => {
         const target_obj = data.find(entry => entry.tag === container.getAttribute("data-dyn-tag"))
-        const heading = el(container.getAttribute("data-dyn-heading"));
+        const heading = $el(container.getAttribute("data-dyn-heading"));
         container.appendChild(heading);
 
         heading.innerHTML = target_obj.heading;
         target_obj.content.forEach(entry => {
             const dom_type = container.getAttribute("data-dyn-content");
-            const content_el = el(dom_type);
+            const content_el = $el(dom_type);
             content_el.innerHTML = entry;
             if(dom_type === "a") content_el.href = entry
             container.appendChild(content_el)
@@ -184,10 +241,10 @@ function generate_nav(pages) {
     const is_homepage = (window.location.href.split("/").pop()) === "index.html";
 
     f_pages.forEach(page => {
-        let url = `${is_homepage ? "./pages/" : "./"}${page.toLowerCase().split(" ").join("_")}.html`;
-        if(page === "Home") url = (is_homepage ? "" : ".") + "./index.html"; // since all pages bar index are stored in subdir
+        let url = `/pages/${page.toLowerCase().split(" ").join("_")}.html`;
+        if(page === "Home") url = "/index.html"; // since all pages bar index are stored in subdir
 
-        const anchor = el("a");
+        const anchor = $el("a");
         anchor.href = url;
         anchor.textContent = page;
         ul.appendChild(anchor);
@@ -199,37 +256,30 @@ function generate_leather(els) {
         const is_rough_border = el.classList.contains("rough-border");
         const bg_struct = `
             <div class="leather-background">
-            <div class="displacement"></div>
-            <div class="dimples"></div>
-            <div class="glow"></div>
-            <div class="shine"></div>
-        </div>
+                <div class="sheen"></div>
+                <div class="glow" id="sheen-mask"></div>
+                <div class="dimples"></div>
+                <div class="displacement"></div>
+            </div>
         `;
-        const borders_struct = `
-        <div class="leather-borders">
-            <div class="top"></div>
-            <div class="right"></div>
-            <div class="bottom"></div>
-            <div class="left"></div>
-        </div>
-        `;
-        if(!is_rough_border) el.insertAdjacentHTML("beforeend", borders_struct);
         el.insertAdjacentHTML("afterbegin", bg_struct);
+
+        if(!is_rough_border) {
+            console.log("hello")
+            const borders = $el(".leather-borders");
+            const div_arr = ["top", "right", "bottom", "left"];
+            div_arr.forEach(div => {borders.innerHTML += `
+            <div class="${div}">
+            <div class="normal"></div>
+            <div class="overlay"></div>
+            </div>`})
+            el.appendChild(borders);
+        }
     })
 }
 
 async function main() { 
-    // const pages = await fetch_sheet_names();
-    const pages = [
-    "Home",
-    "Meet the Band",
-    "History",
-    "Packages",
-    "FAQs",
-    "Events",
-    "Contact",
-    "Gallery Metadata (readonly)"
-];
+    const pages = await fetch_sheet_names();
     // const res = await fetch_data(PAGE);
     // const res = await fetch_data("contact_prompt");
     // const data = parse_document(res, pages);

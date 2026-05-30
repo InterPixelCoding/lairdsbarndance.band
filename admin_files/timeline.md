@@ -437,9 +437,17 @@
 
 - ## 30/05/2026
     - Created dynamically loading navigation bar, considering all SEO crawlability concerns
-    - To do: Blue Leather
+    - Created Blue Leather, dynamically generating composits
         - used in the following manner
-        - <div class="... leather" data-sides="all"></div>
+        ```html
+        <div class="... leather rough-border" data-leather-colour="default"></div>
+        ```
+        rough border is present on homepage, what Richard described as "rope".
+        omitting rough-border class will use default border element.
+    - Styled Navigation Menu to match mockup
 
-    - ### Time Spent (So far): 40 minutes
+    - <img style="max-height: 20em" src="../assets/temp/coding_screenshots/30-05-2026.png"/> 
+    - Resizable container to demonstrate fully automated, responsive setup
+
+    - ### Time Spent (So far): 2 hours 40 minutes
     
